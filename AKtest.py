@@ -1,5 +1,5 @@
 
-from main import (
+from AK import (
     extract_text,
     preprocess_text,
     extract_skills,
