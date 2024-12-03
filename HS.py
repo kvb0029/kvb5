@@ -316,6 +316,22 @@ def main_menu():
         elif choice == 13:
             print("Exiting... Goodbye!")
             break
+        elif choice == 14:
+            add_patient()
+        elif choice == 15:
+            view_patients()
+        elif choice == 16:
+            schedule_appointment()
+        elif choice == 17:
+            view_appointments()
+        elif choice == 18:
+            search_doctors_by_specialty()
+        elif choice == 19:
+            search_invoices_by_status()
+        elif choice == 20:
+            generate_summary_report()
+        elif choice == 21:
+            mark_reminder_as_complete()
         else:
             print("Invalid choice!")
 
