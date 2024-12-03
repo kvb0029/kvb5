@@ -242,7 +242,7 @@ def detect_career_gaps(text):
     import re
     years = re.findall(r'\b(19|20)\d{2}\b', text)
     years = sorted(map(int, years))
-    gaps = [(years[i], years[i+1]) for i in range(len(years) - 1) if years[i+1] - years[i]
+    gaps = [(years[i], years[i+1]) for i in range(len(years) - 1) if years[i+1] - years[i]]
 
 # Main Script
 if __name__ == "__main__":
